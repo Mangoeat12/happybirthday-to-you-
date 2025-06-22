@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+
+    <link rel="stylesheet" href="css/lib/bootstrap.min.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <!-- Music -->
+    <audio class="song" autoplay loop style="display: none; opacity: 0">
+        <source src="music/index.mp3" />
+    </audio>
+
+    <!-- Confetti -->
+    <canvas id="brith-confetti"></canvas>
+
+    <!-- Main Content -->
+    <div class="main">
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-12 col-xl-6 mx-auto">
+                    <img src="img/banner.png" alt="Birthday Banner">
+                </div>
+
+                <div class="col-12 text-center">
+                    <div id="name" class="birth-people-name">DARLINGAAAAAAAAAAA</div>
+                </div>
+
+                <div class="col-12 text-center">
+                    <div class="birth-greeting-word">
+                        <div id="greeting-word" class="typing">
+                            <h2><span>Happy Birthday, </span><i id="inline-name" class="birth-inline-people-name">DARLINGAAAAAAAAAAA</i><span id="people-type"> dear</span></h2>
+                            <h2>May your days be filled with joy and love</h2>
+                            <h2>Every moment, every smile, every dream come true</h2>
+                            <h2>Wishing you a magical birthday and a wonderful year</h2>
+                        </div>
+                        <span id="typed" style="white-space: pre;"></span>
+                    </div>
+                </div>
+
+                <div class="col-12 col-xl-3 birth-cake">
+                    <img src="img/cake.gif" alt="Birthday Cake">
+                </div>
+
+                <div class="col-12 text-center">
+                   <button class="btn" > <a href="vedio background.html"> click here</a></button>
+                </div>
+            </div>
+        </div>
+
+        <img src="img/balloon.png" alt="Balloon" class="brith-balloon">
+    </div>
+
+    <script src="js/lib/snowflakes.min.js"></script>
+    <script src="js/lib/jquery.min.js"></script>
+    <script src="js/lib/typed.min.js"></script>
+    <script src="js/lib/dayjs.min.js"></script>
+    <script src="js/confetti.js"></script>
+    <script src="js/index.js"></script>
+</body>
+</html>
